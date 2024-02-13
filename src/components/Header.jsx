@@ -5,7 +5,7 @@ import hamburgerIcon from '../assets/icons/hamburger.png';
 
 function Header() {
 
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(true);
 
     function handleMenu() {
         setShowMenu(prevState => !prevState)

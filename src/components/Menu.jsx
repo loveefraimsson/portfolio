@@ -1,6 +1,7 @@
 import React from "react";
 
-import cross from '../assets/icons/cross.svg';
+import linkedinIcon from '../assets/icons/linkedin.png';
+import githubIcon from '../assets/icons/github.png';
 
 function Menu(props) {
 
@@ -14,7 +15,7 @@ function Menu(props) {
                     Created by potrace 1.16, written by Peter Selinger 2001-2019
                     </metadata>
                     <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                    fill="#FFFFFF" stroke="none">
+                    fill="#519694" stroke="none">
                     <path d="M1225 4117 c-96 -32 -162 -90 -204 -177 -21 -45 -26 -69 -26 -135 0
                     -148 -16 -128 578 -723 l522 -522 -526 -528 c-594 -595 -573 -570 -574 -717 0
                     -95 28 -166 91 -229 63 -63 134 -91 229 -91 148 0 128 -16 723 578 l522 522
@@ -24,6 +25,20 @@ function Menu(props) {
                     -527 526 c-466 464 -534 528 -583 549 -66 28 -169 35 -225 17z"/>
                     </g>
                 </svg>
+
+                <ul className="menuContent">
+                    <li className="menuItem"><a href="#">Stack</a></li>
+                    <li className="menuItem"><a href="#">Projekt</a></li>
+                    <li className="menuItem"><a href="#">Erfarenhet</a></li>
+                    <li className="menuItem"><a href="#">CV</a></li>
+                    <li className="menuItem"><a href="#">Om mig</a></li>
+                    <li className="menuItem"><a href="#">Kontakt</a></li>
+                    <div className="iconSection">
+                        <a href="https://linkedin.com/in/love-efraimsson" target="_blank"> <img src={linkedinIcon} alt="LinkedIn icon" className="menuIcon" /></a>
+                        <a href="https://github.com/loveefraimsson" target="_blank"><img src={githubIcon} alt="Github icon" className="menuIcon" /></a>
+                    </div>
+                    
+                </ul>
             </section>
         </>
     )

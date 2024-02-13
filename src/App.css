@@ -78,15 +78,57 @@ h3 {
 }
 
 .menu {
-  height: 1000px;
-  background-color: var(--turquoise);
+  background-color: var(--green);
+  color: var(--turquoise);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu svg {
-  float: right;
-  margin-top: 6px;
-  margin-right: 6px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
 }
+
+.menu .menuIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.menu .menuContent {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu .menuContent li {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 0px 0px 16px 0px;
+
+}
+
+.menu .menuContent li a {
+    color: var(--turquoise);
+    text-decoration: none;
+}
+
+.menu .menuContent li:nth-child(6) {
+  margin-bottom: 30px;
+}
+
+.menu .iconSection a:first-child {
+  margin-right: 20px;
+}
+
+
+
 
 
 
