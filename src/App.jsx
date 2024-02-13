@@ -1,14 +1,15 @@
-import { useState } from 'react';
 import './App.css';
-import CV from './Love_Efraimsson_CV.pdf'
+
+import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
  
 
   return (
     <>
-      <h1>Portfolio</h1>
-      <a href = {CV} target = "_blank">Download Pdf</a>
+      <Header />
+      <Hero />
     </>
   )
 }
