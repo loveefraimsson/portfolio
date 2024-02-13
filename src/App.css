@@ -17,9 +17,14 @@ body {
   margin: 0;
 }
 
-h1 {
+h1,
+.subtitle {
   font-size: 18px;
   line-height: 22px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+  font-family: 'Permanent Marker', sans-serif;
 }
 
 h2 {
@@ -138,5 +143,20 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.hero .heroContent {
+  text-align: center;
+  width: 61%;
+}
+
+.hero .heroContent img {
+  width: 70px;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px rgb(255 255 255 / 0.4);
 }
