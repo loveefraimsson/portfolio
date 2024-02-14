@@ -1,6 +1,5 @@
 import React from "react";
 import iconArray from '../assets/icons/Images';
-import waveUpTurquoise from '../assets/icons/waveup.png'
 
 function Stack() {
 
@@ -26,7 +25,6 @@ function Stack() {
 
             </section>
 
-            {/* <img src={waveUpTurquoise} alt="" className="waveup" /> */}
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 785.000000 103.000000"
             preserveAspectRatio="xMidYMid meet" className="waveup">
