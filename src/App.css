@@ -6,6 +6,14 @@
   --darkgreen: #1B3332;
 }
 
+.turquoiseBackgroundColor {
+  background-color: var(--turquoise);
+}
+
+.blackBackgroundColor {
+  background-color: var(--black);
+}
+
 #root {
   position: relative;
 }
@@ -30,7 +38,10 @@ h1,
 h2 {
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 16px;
+  margin: 0px 0px 16px 0px;
+  font-family: 'Permanent marker';
+  text-align: center;
+  color: var(--white);
 }
 
 h3 {
@@ -39,6 +50,11 @@ h3 {
   margin-bottom: 10px;
   text-decoration: underline;
   font-weight: 500;
+}
+
+.container {
+  padding: 20px 20px 71px 20px;
+  position: relative;
 }
 
 .button {
@@ -134,9 +150,6 @@ h3 {
 
 
 
-
-
-
 /* HERO */
 .hero {
   background-image: url('../assets/hero.png');
@@ -159,4 +172,43 @@ h3 {
   width: 70px;
   border-radius: 10px;
   box-shadow: 0 3px 20px rgb(255 255 255 / 0.4);
+}
+
+
+/* STACK SECTION */
+.stackContainer {
+  padding: 30px 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+}
+
+.stackContainer .card {
+  width: 138px;
+/*   margin-top: 30px; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.stackContainer .card img {
+  height: 20px;
+  margin-right: 8 px;
+}
+
+.stackContainer .card p {
+  color: var(--turquoise);
+  margin: 0;
+}
+
+
+.waveup {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
 }
