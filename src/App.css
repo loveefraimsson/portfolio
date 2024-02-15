@@ -346,3 +346,49 @@ h3 {
   color: var(--white);
   padding-bottom: 70px;
 }
+
+.aboutContainer svg {
+  bottom: -1px;
+}
+
+
+
+/* CONTACT */
+.contactSection {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.contactSection img {
+  height: 18px;
+  margin-right: 12px;
+}
+
+.contactSection .contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.contactSection .contactItem a,
+.contactSection .contactItem span {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contactSection .contactItem a:hover {
+  text-decoration: underline;
+}
+
+.contactContainer hr {
+  border: none;
+  border-top: 1px solid var(--green);
+}
+
+.contactContainer .copyright {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 20px 0px 0px 0px;
+}

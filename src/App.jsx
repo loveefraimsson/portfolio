@@ -7,6 +7,7 @@ import Project from './components/Project';
 import Experience from './components/Experience';
 import CV from './components/CV';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
       <Experience />
       <CV />
       <About />
+      <Footer />
     </>
   )
 }
