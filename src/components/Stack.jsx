@@ -6,10 +6,10 @@ function Stack() {
    
 
     return (
-        <section className="container blackBackgroundColor">
+        <section className="container blackBackgroundColor stackContainer">
             <h2>Stack</h2>
             
-            <section className="stackContainer innerContainer turquoiseBackgroundColor">
+            <section className="stackSection innerContainer turquoiseBackgroundColor">
 
             {
                 iconArray.map((icon => {
@@ -25,9 +25,10 @@ function Stack() {
 
             </section>
 
+            {/* Waveup */}
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 785.000000 103.000000"
-            preserveAspectRatio="xMidYMid meet" className="waveup">
+            preserveAspectRatio="xMidYMid meet" className="waveup wave">
                 <metadata>
                 Created by potrace 1.16, written by Peter Selinger 2001-2019
                 </metadata>
