@@ -339,3 +339,10 @@ h3 {
 .CVcontainer .buttonSection > a:first-child {
   margin-right: 10px;
 } 
+
+
+/* ABOUT */
+.aboutContainer {
+  color: var(--white);
+  padding-bottom: 70px;
+}

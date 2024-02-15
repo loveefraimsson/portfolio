@@ -6,6 +6,7 @@ import Stack from './components/Stack';
 import Project from './components/Project';
 import Experience from './components/Experience';
 import CV from './components/CV';
+import About from './components/About';
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
       <Project />
       <Experience />
       <CV />
+      <About />
     </>
   )
 }

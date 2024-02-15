@@ -6,6 +6,7 @@ function Experience() {
     return(
         <section className="experienceContainer container blackBackgroundColor">
 
+            {/* Wave down */}
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="785.000000pt" height="103.000000pt" viewBox="0 0 785.000000 103.000000"
             preserveAspectRatio="xMidYMid meet" className="wavedown wave">
