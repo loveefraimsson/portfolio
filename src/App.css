@@ -305,3 +305,37 @@ h3 {
   width: 100%;
   margin-top: 30px;
 }
+
+
+
+/* CV */
+.CVcontainer {
+  padding-top: 30px;
+}
+
+.CVcontainer > section {
+  padding: 20px 0px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 8px 4px rgba(255, 255, 255, 0.5);
+}
+
+.CVcontainer > section p {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 14px;
+  color: var(--white);
+  margin: 0px 0px 16px 0px;
+}
+
+.CVcontainer .buttonSection {
+  display: flex;
+  justify-content: center;
+}
+
+.CVcontainer .buttonSection > a {
+  width: 70px;
+}
+
+.CVcontainer .buttonSection > a:first-child {
+  margin-right: 10px;
+} 
