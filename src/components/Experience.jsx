@@ -4,7 +4,7 @@ import computer from '../assets/computer.jpg'
 function Experience() {
 
     return(
-        <section className="experienceContainer container blackBackgroundColor">
+        <section className="experienceContainer container blackBackgroundColor" id="experience">
 
             {/* Wave down */}
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"

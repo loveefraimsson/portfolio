@@ -3,7 +3,7 @@ import React from "react";
 function About() {
 
     return (
-        <section className="container blackBackgroundColor aboutContainer">
+        <section className="container blackBackgroundColor aboutContainer" id="about">
             <h2>Om mig</h2>
             <p>Jag heter Love, jag är 32 år och bor i Göteborg. Jag utbildade mig till Frontend-utvecklare och tog examen i september 2022. <br />Jag vill bidra med mina kunskaper inom frontend-utveckling men ser också fram emot att växa och lära mig nya saker så som olika tekniker, programmeringskunskaper och arbetssätt. <br /> Framöver ser jag mig fortsätta arbeta med noggrannhet och precision för att skapa så effektiva och användarvänliga hemsidor som möjligt. Jag strävar alltid efter bästa resultat och ser problemlösning som en tillgång och en naturlig del av arbetet. <br /> <br />
 

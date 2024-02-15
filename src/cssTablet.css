@@ -1,0 +1,65 @@
+@media screen and (min-width: 690px) {
+    :root {
+        --turquoise: #519694;
+        --green: #294C4B;
+        --white: #FFFFFF;
+        --black: #000000;
+        --darkgreen: #1B3332;
+        --lightgreen: #B3F5F3;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    h1,
+    .subtitle {
+        font-size: 30px;
+        line-height: 44px;
+    } 
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        font-weight: 500;
+    } 
+
+
+    /* HEADER AND MENU */
+    .header {
+        height: 60px !important;
+    }
+  
+    .header .hamburgerIcon {
+        margin-top: 24px;
+        margin-right: 24px;
+    }
+  
+    .menu svg {
+        top: 22px;
+        right: 22px;
+      } 
+
+
+    /* HERO */
+    .hero {
+        height: 400px;
+    }
+
+    .hero .heroContent {
+        margin-top: 37px;
+    } 
+
+
+    .hero .heroContent img {
+        width: 126px;
+        margin-bottom: 16px;
+    }
+  
+}

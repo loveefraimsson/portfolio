@@ -1,0 +1,47 @@
+@media screen and (min-width: 960px) {
+    :root {
+        --turquoise: #519694;
+        --green: #294C4B;
+        --white: #FFFFFF;
+        --black: #000000;
+        --darkgreen: #1B3332;
+        --lightgreen: #B3F5F3;
+    }
+
+
+    .headerMobile {
+        display: none;
+      }
+  
+    .headerDesktop {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .leftSection {
+        margin-left: 108px;
+    }
+    
+    .rightSection {
+        margin-right: 108px;
+    }
+
+    .headerDesktop .menuItem {
+        color: var(--white);
+        font-size: 16px;
+        text-decoration: none;
+        margin-right: 60px;
+    }
+
+    .headerDesktop .menuIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .headerDesktop .menuIcon:first-child {
+        margin-right: 15px;
+    }
+    
+  }

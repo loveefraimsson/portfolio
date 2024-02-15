@@ -10,7 +10,7 @@ import phone from '../assets/icons/phone.png';
 function Footer() {
 
     return (
-        <section className="container turquoiseBackgroundColor contactContainer">
+        <section className="container turquoiseBackgroundColor contactContainer" id="contact">
             <h2>Kontakt</h2>
 
             <section className="contactSection">

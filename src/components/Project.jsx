@@ -4,7 +4,7 @@ import projects from '../project.js'
 function Project() {
 
     return(
-        <section className="projectContainer container turquoiseBackgroundColor">
+        <section className="projectContainer container turquoiseBackgroundColor" id="project">
             <h2>Project</h2>
 
             <section className="projectSection">

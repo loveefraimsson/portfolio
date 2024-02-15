@@ -4,7 +4,7 @@ import CVPDF from '../Love_Efraimsson_CV.pdf'
 function CV() {
 
     return (
-        <section className="CVcontainer container blackBackgroundColor">
+        <section className="CVcontainer container blackBackgroundColor" id="cv">
             <section className="turquoiseBackgroundColor">
                 <p>Vill du se mer om mig?</p>
 

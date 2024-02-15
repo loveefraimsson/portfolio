@@ -6,7 +6,7 @@ function Stack() {
    
 
     return (
-        <section className="container blackBackgroundColor stackContainer">
+        <section className="container blackBackgroundColor stackContainer" id="stack">
             <h2>Stack</h2>
             
             <section className="stackSection innerContainer turquoiseBackgroundColor">
