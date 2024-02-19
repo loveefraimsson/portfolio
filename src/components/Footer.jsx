@@ -9,6 +9,8 @@ import phone from '../assets/icons/phone.png';
 
 function Footer() {
 
+    let copyrightYear = new Date().getFullYear();
+
     return (
         <section className="container turquoiseBackgroundColor contactContainer" id="contact">
             <h2>Kontakt</h2>
@@ -44,7 +46,7 @@ function Footer() {
             </section>
 
             <hr />
-            <p className="copyright">&copy; Copyright <script>document.write(new Date().getFullYear())</script> - Love Efraimsson</p>
+            <p className="copyright">&copy; Copyright {copyrightYear} - Love Efraimsson</p>
             
         </section>
     )
