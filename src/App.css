@@ -209,6 +209,7 @@ h3 {
 .stackContainer {
   padding-bottom: 71px;
 }
+
 .stackSection {
   padding: 30px 25px;
   border-radius: 10px;
@@ -216,10 +217,12 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-around;
   row-gap: 30px;
+  column-gap: 30px;
+  box-sizing: border-box;
 }
 
 .stackSection .card {
-  width: 138px;
+  width: 43%;
   border-radius: 10px;
   display: flex;
   justify-content: center;

@@ -15,7 +15,7 @@
 
     h1,
     .subtitle {
-        font-size: 48px;
+        font-size: 42px;
         line-height: 60px;
     } 
     
@@ -32,6 +32,15 @@
         margin-bottom: 20px;
         text-decoration: underline;
         font-weight: 500;
+    }
+
+    .container {
+        padding: 107px 60px 107px 60px;
+    }
+
+    .innerContainer {
+        max-width: 1145px;
+        margin: 0 auto;
     }
 
 
@@ -84,9 +93,31 @@
     }
 
     .hero .heroContent img {
-        width: 250px;
+        width: 200px;
     }
 
+
+
+    /* STACK */
+    .stackSection {
+        padding: 53px 80px;
+        row-gap: 30px;
+        column-gap: 40px;
+    }
+
+    .stackSection .card {
+        width: 28%;
+        height: 50px;
+        padding: 8px 0px;
+      }
+
+    .stackSection .card img {
+        height: 25px;
+    }
+
+    .stackSection .card p {
+        font-size: 20px;
+    }
 
 
     

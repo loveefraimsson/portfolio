@@ -1,6 +1,7 @@
 import './App.css';
 import './cssTablet.css';
 import './cssDesktop.css';
+import './specialMediaQueries.css';
 
 import Header from './components/Header';
 import Hero from './components/Hero';

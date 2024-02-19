@@ -30,6 +30,15 @@
         font-weight: 500;
     } 
 
+    .container {
+        padding: 50px 20px 60px 20px;
+    }
+
+    .innerContainer {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+
 
     /* HEADER AND MENU */
     .header {
@@ -62,4 +71,24 @@
         margin-bottom: 16px;
     }
   
+
+    /* STACK SECTION */
+    .stackSection {
+        padding: 40px;
+        column-gap: 40px;
+    }
+
+    .stackSection .card {
+        width: 28%;
+        padding: 8px 0px;
+      }
+
+    .stackSection .card img {
+        height: 17px;
+    }
+
+    .stackSection .card p {
+        font-size: 16px;
+    }
+
 }
