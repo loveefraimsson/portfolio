@@ -8,7 +8,36 @@
         --lightgreen: #B3F5F3;
     }
 
+    body {
+        font-size: 20px;
+    }
 
+
+    h1,
+    .subtitle {
+        font-size: 48px;
+        line-height: 60px;
+    } 
+    
+    h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 60px;
+    } 
+    
+    h3 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 24px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+
+
+
+    /* HEADER AND MENU */
     .headerMobile {
         display: none;
       }
@@ -43,5 +72,22 @@
     .headerDesktop .menuIcon:first-child {
         margin-right: 15px;
     }
+
+
+    /* HERO */
+    .hero {
+        height: 650px;
+    }
+
+    .hero .heroContent {
+        margin-top: 99px;
+    }
+
+    .hero .heroContent img {
+        width: 250px;
+    }
+
+
+
     
   }
