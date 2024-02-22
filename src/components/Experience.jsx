@@ -8,7 +8,7 @@ function Experience() {
 
             {/* Wave down */}
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-            width="785.000000pt" height="103.000000pt" viewBox="0 0 785.000000 103.000000"
+             viewBox="0 0 785.000000 103.000000"
             preserveAspectRatio="xMidYMid meet" className="wavedown wave">
                 <metadata>
                 Created by potrace 1.16, written by Peter Selinger 2001-2019

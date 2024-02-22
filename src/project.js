@@ -10,7 +10,7 @@ const projects = [
     },
     {
         title: 'WorkoutBase',
-        description: 'Workoutbase är ett projekt som jag gjorde som examensarbete på min utbildning. Det är en sida där man kan logga in och söka bland olika träningsövningar. Man kan göra sina egna träningsprogram och favoritmarkera övningar som man vill kolla tillbaka på vid ett senare tillfälle. Det finns även en webshop där man kan lägga sina valda varor i kundkorgen. Inloggning till projektet finns på Github.',
+        description: 'Workoutbase är ett projekt som jag gjorde som examensarbete på min utbildning. Man kan logga in och söka bland olika träningsövningar, göra sina egna träningsprogram och favoritmarkera övningar som man vill kolla tillbaka på vid ett senare tillfälle. Det finns även en webshop där man kan lägga sina valda varor i kundkorgen. Inloggning till projektet finns på Github.',
         imageURL: new URL('assets/workoutbase.png', import.meta.url).href,
         imageAlt: 'Skärmklipp från WorkoutBase-hemsidan',
         tags: ['React', 'Sass', 'MongoDB', 'Express.js', 'Node'],

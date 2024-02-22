@@ -7,19 +7,21 @@ function Project() {
         <section className="projectContainer container turquoiseBackgroundColor" id="project">
             <h2>Project</h2>
 
-            <section className="projectSection">
+            <section className="projectSection innerContainer">
             {projects.map((project => {
 
                     return(
                         <section className="projectCard" key={project.title}>
-                            <div>
+                            <div className="imageContainer">
                                 <img src={project.imageURL} alt={project.imageAlt} />
                             </div>
 
-                            <div>
+                            <div className="textContainer">
+                                <div className="tagsContainer">
                                 {project.tags.map((tag) => {
                                     return <span className="tag" key={tag}>{tag}</span>
                                 })}
+                                </div>
                                 <p className="description">{project.description}</p>
                                 <div className="buttonContainer">
                                     <a href={project.linkWebsite} className="button">Till hemsidan</a>
@@ -34,6 +36,8 @@ function Project() {
                     )
                 }))}
             </section>
+
+            
 
         </section>
     )

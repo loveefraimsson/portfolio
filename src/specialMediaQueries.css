@@ -56,3 +56,29 @@
 }
 
 /* ----------------------------------------------------------------- */
+
+/* EDUCATION SECTION WAVE */
+@media (min-width: 540px) {
+    .experienceContainer {
+        padding-top: 90px;
+    }
+}
+
+@media (min-width: 690px) {
+    .experienceContainer {
+        padding-top: 170px;
+    }
+}
+
+
+@media (min-width: 960px) {
+    .experienceContainer {
+        padding-top: 258px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .experienceContainer {
+        padding-top: 290px;
+    }
+}
