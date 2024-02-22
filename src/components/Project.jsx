@@ -13,7 +13,7 @@ function Project() {
                     return(
                         <section className="projectCard" key={project.title}>
                             <div className="imageContainer">
-                                <img src={project.imageURL} alt={project.imageAlt} />
+                                <a href={project.linkWebsite} target="_blank"><img src={project.imageURL} alt={project.imageAlt} /></a>
                             </div>
 
                             <div className="textContainer">

@@ -9,7 +9,7 @@ function Menu(props) {
     return(
         <>
             <section className="menu">
-                <IoClose onClick={props.handleMenu} size={25} />
+                <IoClose onKeyDown={props.closeMenu} onClick={props.handleMenu} size={25} tabIndex="0" />
                 <ul className="menuContent">
                     <li className="menuItem"><a href="#stack" onClick={props.handleMenu}>Stack</a></li>
                     <li className="menuItem"><a href="#project" onClick={props.handleMenu}>Projekt</a></li>

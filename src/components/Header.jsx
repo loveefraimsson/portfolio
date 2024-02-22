@@ -32,6 +32,34 @@ function Header() {
     let styleHeader = {
         opacity: opacityHeader,
     }
+
+
+    
+
+    function onEnter(event) {
+        switch (event.key) {
+            case "Enter":
+            console.log('enter');
+            if (!showMenu) {
+                setShowMenu(prevState => !prevState)
+                break;
+            }
+        } 
+    }
+
+    function closeMenu(event) {
+        switch (event.key) {
+            case "Enter":
+            console.log('test');
+            if (showMenu) {
+                setShowMenu(prevState => !prevState)
+                break;
+            }
+        } 
+    }
+
+
+
     
     return (
         <>
@@ -39,9 +67,10 @@ function Header() {
 
             {/* HEADER MOBILE */}
             {/* Show menu or header depending on state */}
-            {showMenu ? <Menu handleMenu={handleMenu}/> : 
+            {showMenu ? <Menu handleMenu={handleMenu} closeMenu={closeMenu} /> : 
                 <header style={styleHeader} className="header headerMobile">
-                    <img onClick={handleMenu} src={hamburgerIcon} alt="Hamburgar-meny-ikon" className="hamburgerIcon menuBtn" />
+                    <img onClick={handleMenu} src={hamburgerIcon} alt="Hamburgar-meny-ikon" className="hamburgerIcon menuBtn" tabIndex="0"
+                    onKeyDown={onEnter} />
     
                 </header>
             }

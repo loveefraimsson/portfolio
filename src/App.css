@@ -124,6 +124,7 @@ h3 {
   float: right;
   margin-top: 9px;
   margin-right: 9px;
+  cursor: pointer;
 }
 
 .menu {
