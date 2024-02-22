@@ -1,5 +1,6 @@
 import React from "react";
-import computer from '../assets/computer.jpg'
+import computer from '../assets/computer.jpg';
+import laptop from '../assets/laptop.jpg';
 
 function Experience() {
 
@@ -24,100 +25,103 @@ function Experience() {
             
             <h2>Erfarenhet</h2>
 
-            <section className="work">
-                <h3>Arbetslivserfarenhet</h3>
+            <section className="content innerContainer">
+                <section className="work">
+                    <h3>Arbetslivserfarenhet</h3>
 
-                <section className="workExperience">
-                    <ul>
-                        <li >
-                            <span className="title">HAJ Agency | Webbutvecklare</span> <br />
-                            <span className="time">September 2022 - Maj 2023</span> <br />
-                            <span className="titleResponsibility">Huvudansvar:</span>
-                            <ul className="responsibilityList">
-                                <li>Utveckling av hemsidor i Wordpress</li>
-                                <li>Arbeta med JavaScript och CSS för att skapa funktioner och utseende efter kundens önskemål</li>
-                                <li>Kontakt med kund</li>
-                                <li>Handledning av praktikant</li>
-                                <li>Utveckling av hemsida med React som frontend och Wordpress som backend</li>
-                                <li>Utveckling av webbshop i Wordpress och WooCommerce</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <section className="workExperience">
+                        <ul>
+                            <li >
+                                <span className="title">HAJ Agency | Webbutvecklare</span> <br />
+                                <span className="time">September 2022 - Maj 2023</span> <br />
+                                <span className="titleResponsibility">Huvudansvar:</span>
+                                <ul className="responsibilityList">
+                                    <li>Utveckling av hemsidor i Wordpress</li>
+                                    <li>Arbeta med JavaScript och CSS för att skapa funktioner och utseende efter kundens önskemål</li>
+                                    <li>Kontakt med kund</li>
+                                    <li>Handledning av praktikant</li>
+                                    <li>Utveckling av hemsida med React som frontend och Wordpress som backend</li>
+                                    <li>Utveckling av webbshop i Wordpress och WooCommerce</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section className="workExperience">
+                        <ul>
+                            <li >
+                                <span className="title">HAJ Agency | PraktikWebbutvecklare</span> <br />
+                                <span className="time">Januari 2022 - september 2022</span> <br />
+                                <span className="titleResponsibility">Huvudansvar:</span>
+                                <ul className="responsibilityList">
+                                    <li>Utveckling av hemsidor i Wordpress</li>
+                                    <li>Arbeta med JavaScript och CSS för att skapa funktioner och utseende efter kundens önskemål</li>
+                                    <li>Kontakt med kund</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section className="workExperience">
+                        <ul>
+                            <li >
+                                <span className="title">Tetiko | Arbetsträning</span> <br />
+                                <span className="time">April 2019 – december 2020</span> <br />
+                                <p className="marginWorkDescription">Utbildade mig inom grundläggande HTML och CSS </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section className="workExperience">
+                        <ul>
+                            <li >
+                                <span className="title">Volvo | Montör</span> <br />
+                                <span className="time">April 2015 – juni 2015</span> <br />
+                                <p className="marginWorkDescription">Arbetade som montör på bandet på Volvo</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section className="workExperience">
+                        <ul>
+                            <li >
+                                <span className="title">Indikator AB | Lageransvarig/Arbetsledare</span> <br />
+                                <span className="time">Oktober 2012 – januari 2015</span> <br />
+                                <p className="marginWorkDescription">Ansvarade för inkommande och utgående leveranser och var arbetsledare för medarbetare. Vi arbetade bland annat med utskick av enkäter och hantering av returer. </p>
+                            </li>
+                        </ul>
+                    </section>
+
+
                 </section>
 
-                <section className="workExperience">
-                    <ul>
-                        <li >
-                            <span className="title">HAJ Agency | PraktikWebbutvecklare</span> <br />
-                            <span className="time">Januari 2022 - september 2022</span> <br />
-                            <span className="titleResponsibility">Huvudansvar:</span>
-                            <ul className="responsibilityList">
-                                <li>Utveckling av hemsidor i Wordpress</li>
-                                <li>Arbeta med JavaScript och CSS för att skapa funktioner och utseende efter kundens önskemål</li>
-                                <li>Kontakt med kund</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
+                
 
-                <section className="workExperience">
-                    <ul>
-                        <li >
-                            <span className="title">Tetiko | Arbetsträning</span> <br />
-                            <span className="time">April 2019 – december 2020</span> <br />
-                            <p className="marginWorkDescription">Utbildade mig inom grundläggande HTML och CSS </p>
-                        </li>
-                    </ul>
-                </section>
+                <section className="education">
+                        <h3>Utbildning</h3>
+                        <ul>
+                            <li>
+                                <span className="time">Dec 2020 – september 2022</span> <br />
+                                <span><b>FrontEnd Developer</b>, Medieinstitutet</span>
+                            </li>
+                            <li>
+                                <span className="time">September 2017 – oktober 2017</span> <br />
+                                <span><b>Grundkurs Java, IT-högskolan</b></span>
+                            </li>
+                            <li>
+                                <span className="time">Augusti 2007 – juni 2010</span> <br />
+                                <span><b>Samhällsvetenskap</b>, Aranäsgymnasiet</span>
+                            </li>
+                        </ul>
 
-                <section className="workExperience">
-                    <ul>
-                        <li >
-                            <span className="title">Volvo | Montör</span> <br />
-                            <span className="time">April 2015 – juni 2015</span> <br />
-                            <p className="marginWorkDescription">Arbetade som montör på bandet på Volvo</p>
-                        </li>
-                    </ul>
+                        <img src={computer} alt="Laptop på ett bord" className="landscapeOrientation" />
+                        <img src={laptop} alt="Laptop på ett bord" className="portraitOrientation" />
+                
                 </section>
-
-                <section className="workExperience">
-                    <ul>
-                        <li >
-                            <span className="title">Indikator AB | Lageransvarig/Arbetsledare</span> <br />
-                            <span className="time">Oktober 2012 – januari 2015</span> <br />
-                            <p className="marginWorkDescription">Ansvarade för inkommande och utgående leveranser och var arbetsledare för medarbetare. Vi arbetade bland annat med utskick av enkäter och hantering av returer. </p>
-                        </li>
-                    </ul>
-                </section>
-
 
             </section>
 
             
-
-            <section className="education">
-                <div>
-                    <h3>Utbildning</h3>
-                     <ul>
-                        <li>
-                            <span className="time">Dec 2020 – september 2022</span> <br />
-                            <span><b>FrontEnd Developer</b>, Medieinstitutet</span>
-                        </li>
-                        <li>
-                            <span className="time">September 2017 – oktober 2017</span> <br />
-                            <span><b>Grundkurs Java, IT-högskolan</b></span>
-                        </li>
-                        <li>
-                            <span className="time">Augusti 2007 – juni 2010</span> <br />
-                            <span><b>Samhällsvetenskap</b>, Aranäsgymnasiet</span>
-                        </li>
-                    </ul>
-
-                    <img src={computer} alt="Laptop på ett bord" />
-                </div>
-               
-            </section>
-
 
         </section>
     )

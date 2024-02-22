@@ -147,4 +147,55 @@
         margin: 20px 0px 0px 0px;
     }
 
+
+    /* EXPERIENCE SECTION */
+    .experienceContainer.container {
+        padding-bottom: 0px;
+    }
+    .experienceContainer .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .experienceContainer .content .work {
+        width: 45%;
+    }
+
+    .experienceContainer .content .education {
+        width: 45%;
+        margin-top: 0px;
+    }
+
+    .education .landscapeOrientation {
+        display: none;
+    }
+
+    .education .portraitOrientation {
+        display: block;
+        position: absolute;
+        width: 290px;
+        bottom: 200px;
+    }
+
+
+    /* CV SECTION */
+    .CVcontainer > section {
+        padding: 25px 0px;
+    }
+
+    .CVcontainer > section p {
+        font-size: 30px;
+    }
+
+    .CVcontainer .buttonSection a {
+        width: 137px;
+        font-size: 16px;
+    }
+
+
+    /* ABOUT SECTION */
+    .aboutContainer.container {
+        padding-top: 0px;
+    }
+
 }

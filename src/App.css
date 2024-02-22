@@ -311,9 +311,16 @@ h3 {
 .education {
   margin-top: 30px;
 }
-.education img {
+
+.education .landscapeOrientation {
   width: 100%;
   margin-top: 30px;
+  border-radius: 7px;
+}
+
+.education .portraitOrientation {
+  display: none;
+  border-radius: 7px;
 }
 
 
