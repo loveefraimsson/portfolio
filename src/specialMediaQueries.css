@@ -143,3 +143,24 @@
         padding-bottom: 300px;
     }
 }
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+/* CONTACT SECTION  */
+@media (min-width: 550px) {
+    .contactContainer .contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactContainer .contact .contactSection:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+

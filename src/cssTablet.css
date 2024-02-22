@@ -198,4 +198,45 @@
         padding-top: 0px;
     }
 
+
+
+    /* FOOTER */
+    .contactContainer.container {
+        padding-bottom: 40px;
+    }
+    .contactContainer .contact {
+        margin: 40px auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid var(--green);
+    }
+
+    .contactContainer .contactSection {
+        margin: 0;
+        width: 43%;
+        padding: 10px 0px;
+    }
+
+    .contactContainer .contactSection:last-child {
+        border-left: 1px solid var(--green);
+    }
+    
+    .contactContainer .contactSection .contactItem {
+        margin-bottom: 20px;
+    }
+
+    .contactContainer .contactSection:last-child .contactItem {
+        margin-left: 105px;
+    }
+
+    .contactSection img {
+        height: 22px;
+    }
+
+    .contactContainer .copyright {
+        margin: 40px 0px 0px 0px;
+        font-size: 12px;
+    }
+    
+
+
 }

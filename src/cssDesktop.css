@@ -166,5 +166,21 @@
         width: 150px;
         font-size: 20px;
     }
+
+
+
+    /* FOOTER */
+    .contactContainer .contactSection .contactItem {
+        margin-bottom: 24px;
+    }
+
+    .contactSection img {
+        height: 35px;
+    }
+
+    .contactContainer .copyright {
+        margin: 40px 0px 0px 0px;
+        font-size: 16px;
+    }
     
   }
