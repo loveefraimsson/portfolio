@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+
 import './App.css';
 import './cssTablet.css';
 import './cssDesktop.css';
@@ -13,6 +15,59 @@ import About from './components/About';
 import Footer from './components/Footer';
 
 function App() {
+
+
+
+
+  /* TOP ANIMAITON */
+  useEffect(() => {
+
+    const hiddenElements = document.querySelectorAll('.hidden')
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting){
+                entry.target.classList.add('show')
+            } else {
+                entry.target.classList.remove('show')
+            }
+        })
+    })
+
+    hiddenElements.forEach((el) => observer.observe(el))
+
+    }, []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ZOOM ANIMAITON */
+ /*  useEffect(() => {
+
+    const hiddenElements = document.querySelectorAll('.hidden')
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting){
+                entry.target.classList.add('zoomAnimation')
+            } else {
+                entry.target.classList.remove('zoomAnimation')
+            }
+        })
+    })
+
+    hiddenElements.forEach((el) => observer.observe(el))
+
+  }, []); */
  
 
   return (

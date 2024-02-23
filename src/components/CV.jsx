@@ -5,7 +5,7 @@ function CV() {
 
     return (
         <section className="CVcontainer container blackBackgroundColor" id="cv">
-            <section className="turquoiseBackgroundColor innerContainer">
+            <section className="turquoiseBackgroundColor innerContainer hidden">
                 <p>Vill du se mer om mig?</p>
 
                 <div className="buttonSection">

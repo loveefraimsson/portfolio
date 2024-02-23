@@ -105,6 +105,9 @@ h3 {
   top: 0px;
 }
 
+.hidden {
+  opacity: 0;
+}
 
 /* HEADER AND MENU */
 .headerDesktop {
@@ -191,18 +194,29 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
 }
+
+
 
 .hero .heroContent {
   text-align: center;
   width: 61%;
+  
+}
+
+.hero .heroContent h1.show,
+.hero .heroContent .subtitle.show {
+  animation: fadeInFromLeft 1s ease forwards;
 }
 
 .hero .heroContent img {
   width: 70px;
   border-radius: 10px;
   box-shadow: 0 3px 20px rgb(255 255 255 / 0.4);
+}
+
+.hero .heroContent img.show {
+  animation: fadeInFromTop 1s ease forwards;
 }
 
 
@@ -220,6 +234,11 @@ h3 {
   row-gap: 30px;
   column-gap: 30px;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.stackSection.show {
+  animation: zoom 1s ease forwards;
 }
 
 .stackSection .card {
@@ -251,6 +270,14 @@ h3 {
 
 .projectContainer .projectCard:not(.projectCard:last-child) {
   margin-bottom: 60px;
+}
+
+.projectContainer .projectCard:first-child.show {
+  animation: fadeInFromLeft 1.5s ease forwards;
+}
+
+.projectContainer .projectCard:last-child.show {
+  animation: fadeInFromRight 1.5s ease forwards;
 }
 
 .projectContainer .projectCard img {
@@ -338,6 +365,10 @@ h3 {
   box-shadow: 0px 0px 8px 4px rgba(255, 255, 255, 0.5);
 }
 
+.CVcontainer .innerContainer.show {
+  animation: zoom 1.5s ease forwards;
+}
+
 .CVcontainer > section p {
   font-family: 'Permanent Marker', sans-serif;
   font-size: 14px;
@@ -414,6 +445,54 @@ h3 {
 
 
 
+/* KEYFRAMES */
+@keyframes fadeInFromTop {
+  0% {
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(-0,-100%,0);
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 
 
+@keyframes fadeInFromLeft {
+  0% {
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,-0,0);
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeInFromRight {
+  0% {
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes zoom {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3,.3,.3);
+    transform: scale3d(.3,.3,.3);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 

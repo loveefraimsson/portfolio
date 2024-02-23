@@ -11,7 +11,7 @@ function Project() {
             {projects.map((project => {
 
                     return(
-                        <section className="projectCard" key={project.title}>
+                        <section className="projectCard hidden" key={project.title}>
                             <div className="imageContainer">
                                 <a href={project.linkWebsite} target="_blank"><img src={project.imageURL} alt={project.imageAlt} /></a>
                             </div>

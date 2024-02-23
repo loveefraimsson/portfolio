@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import iconArray from '../assets/icons/Images';
 
 function Stack() {
 
+    
+
+
+    
    
 
     return (
         <section className="container blackBackgroundColor stackContainer" id="stack">
             <h2>Stack</h2>
             
-            <section className="stackSection innerContainer turquoiseBackgroundColor">
+            <section className="stackSection innerContainer turquoiseBackgroundColor hidden">
 
             {
                 iconArray.map((icon => {

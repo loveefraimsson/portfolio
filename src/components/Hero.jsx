@@ -1,5 +1,6 @@
 import React from "react";
-import profileImg from '../assets/profilbild.jpg'
+import profileImg from '../assets/profilbild.jpg';
+import '../App.css';
 
 function Hero() {
 
@@ -7,9 +8,9 @@ function Hero() {
         <>
             <section className="hero">
                 <div className="heroContent">
-                    <img src={profileImg} alt="Love Efraimsson" />
-                    <h1>Love Efraimsson </h1>
-                    <p className="subtitle">- Frontend Developer</p>
+                    <img src={profileImg} alt="Love Efraimsson" className="hidden" />
+                    <h1 className="hidden">Love Efraimsson</h1>
+                    <p className="subtitle hidden">- Frontend Developer</p>
                 </div>
                 
             </section>
