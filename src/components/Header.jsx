@@ -8,13 +8,23 @@ import githubIcon from '../assets/icons/github.png';
 function Header() {
 
     const [showMenu, setShowMenu] = useState(false);
-    const [opacityHeader, setOpacityHeader] = useState('0.7')
+    const [opacityHeader, setOpacityHeader] = useState({
+        opacity: '0.7',
+        border: 'none'
+    });
 
     const listenScrollEvent = (event) => {
         if (window.scrollY > 200) {
-            return setOpacityHeader("0.9")
-        } else if (window.scrollY > 70) {
-            return setOpacityHeader("0.7")
+            return setOpacityHeader({
+                opacity: '0.9',
+                border: '2px solid var(--darkgreen)'
+            })
+            
+        } else if (window.scrollY < 200) {
+            return setOpacityHeader({
+                opacity: '0.7',
+                border: 'none'
+            })
         } 
     }
 
@@ -25,12 +35,15 @@ function Header() {
           window.removeEventListener('scroll', listenScrollEvent);
     }, []);
 
+
+
     function handleMenu() {
         setShowMenu(prevState => !prevState)
     }
 
     let styleHeader = {
-        opacity: opacityHeader,
+        opacity: opacityHeader.opacity,
+        border: opacityHeader.border
     }
 
 

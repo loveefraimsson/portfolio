@@ -37,37 +37,6 @@ function App() {
     hiddenElements.forEach((el) => observer.observe(el))
 
     }, []);
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ZOOM ANIMAITON */
- /*  useEffect(() => {
-
-    const hiddenElements = document.querySelectorAll('.hidden')
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting){
-                entry.target.classList.add('zoomAnimation')
-            } else {
-                entry.target.classList.remove('zoomAnimation')
-            }
-        })
-    })
-
-    hiddenElements.forEach((el) => observer.observe(el))
-
-  }, []); */
  
 
   return (

@@ -121,6 +121,24 @@
         margin-bottom: 0px;
     }
 
+    .projectContainer .projectCard:nth-child(odd) img {
+        transform: perspective(800px) rotateY(25deg) scale(.9) rotateX(10deg);
+        transition: 0.5s;
+    }
+    
+    .projectContainer .projectCard:nth-child(odd) img:hover {
+        transform: perspective(800px) rotateY(-15deg) rotateX(10deg);
+    }
+    
+    .projectContainer .projectCard:nth-child(even) img {
+        transform: perspective(900px) rotateY(-25deg) scale(.9) rotateX(7deg);
+        transition: 0.5s;
+    }
+    
+    .projectContainer .projectCard:nth-child(even) img:hover {
+        transform: perspective(800px) rotateY(23deg) rotateX(7deg);
+    }
+
     .projectSection .projectCard .textContainer {
         width: 45%;
         display: flex;

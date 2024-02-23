@@ -280,11 +280,35 @@ h3 {
   animation: fadeInFromRight 1.5s ease forwards;
 }
 
+.projectContainer .projectCard .imageContainer {
+  text-align: center;
+}
+
 .projectContainer .projectCard img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 12px;
+  box-shadow: 0 2px 22px rgba(255, 255, 255, 0.7);
 }
+
+.projectContainer .projectCard:nth-child(odd) img {
+  transform: perspective(800px) rotateY(25deg) scale(.9) rotateX(10deg);
+  transition: 0.5s;
+}
+
+.projectContainer .projectCard:nth-child(odd) img:hover {
+  transform: perspective(800px) rotateY(-15deg) rotateX(10deg);
+}
+
+.projectContainer .projectCard:nth-child(even) img {
+  transform: perspective(900px) rotateY(-25deg) scale(.9) rotateX(7deg);
+  transition: 0.5s;
+}
+
+.projectContainer .projectCard:nth-child(even) img:hover {
+  transform: perspective(800px) rotateY(23deg) rotateX(7deg);
+}
+
 
 .projectContainer .projectCard .description {
   margin: 20px 0px;
@@ -299,6 +323,9 @@ h3 {
   margin-right: 16px;
 }
  
+
+
+
 
 /* EXPERIENCE SECTION */
 .experienceContainer {

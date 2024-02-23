@@ -55,6 +55,26 @@
     }
 }
 
+
+/* ----------------------------------------------------------------- */
+
+/* PROJECT SECTION IMAGES */
+@media (min-width: 530px) {
+    .projectContainer .projectCard img {
+        margin-bottom: 40px;
+    }
+
+    @media (min-width: 690px) and (max-width: 960px) {
+        .projectContainer .projectCard {
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+}
+
+
+
+
 /* ----------------------------------------------------------------- */
 
 /* EDUCATION SECTION WAVE */

@@ -1,6 +1,7 @@
 import React from "react";
 import computer from '../assets/computer.jpg';
 import laptop from '../assets/laptop.jpg';
+import iPhone from '../assets/iPhone.jpg';
 
 function Experience() {
 
@@ -115,8 +116,13 @@ function Experience() {
                         </ul>
 
                         <img src={computer} alt="Laptop på ett bord" className="landscapeOrientation" />
-                        <img src={laptop} alt="Laptop på ett bord" className="portraitOrientation" />
-                
+
+                        <div className="imageContainer">
+                            <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityFirst" />
+                           {/*  <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacitySecond" />
+                            <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityThird" />
+                            <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityFourth" /> */}
+                        </div>
                 </section>
 
             </section>

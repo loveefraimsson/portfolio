@@ -82,6 +82,10 @@
         margin-right: 60px;
     }
 
+    .headerDesktop .menuItem:hover {
+        color: var(--turquoise);
+    }
+    
     .headerDesktop .menuIcon {
         width: 30px;
         height: 30px;
@@ -149,6 +153,25 @@
         width: 290px;
         bottom: 200px;
     }
+
+/*     .experienceContainer .education .imageContainer {
+        position: relative;
+        width: 360px;
+        height: 640px;
+        margin-top: 150px;
+        background: rgba(0, 0, 0, 0);
+        transform: rotate(-30deg) skew(25deg) scale(0.8);
+        transition: 0.5s;
+    }
+
+    .experienceContainer .education .imageContainer img {
+        position: absolute;
+        width: 100%;
+        transition: 0.5s;
+    } */
+
+
+
 
 
 
