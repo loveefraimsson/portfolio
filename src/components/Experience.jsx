@@ -119,9 +119,9 @@ function Experience() {
 
                         <div className="imageContainer">
                             <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityFirst" />
-                           {/*  <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacitySecond" />
+                            <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacitySecond" />
                             <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityThird" />
-                            <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityFourth" /> */}
+                            <img src={iPhone} alt="iPhone på ett bord" className="portraitOrientation opacityImage opacityFourth" />
                         </div>
                 </section>
 

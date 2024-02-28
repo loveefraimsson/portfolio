@@ -104,6 +104,9 @@
 }
 
 
+
+
+
 /* ----------------------------------------------------------------- */
 
 /* EXPERIENCE SECTION IMAGE */
@@ -134,6 +137,27 @@
     }
 }
 
+/* EDUCATION SECTION IMAGE */
+@media (min-width: 690px) and (max-width: 960px) {
+    .experienceContainer .education .imageContainer .opacitySecond,
+    .experienceContainer .education .imageContainer .opacityThird,
+    .experienceContainer .education .imageContainer .opacityFourth {
+        display: none;
+    }
+}
+
+@media (min-width: 1100px) {
+    .experienceContainer .education .imageContainer img {
+        width: 250px;
+        top: 64%;
+    }
+}
+
+/* @media (min-width: 1200px) {
+    .experienceContainer .education .imageContainer img {
+        width: 280px;
+    }
+} */
 
 
 

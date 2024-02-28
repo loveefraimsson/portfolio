@@ -154,21 +154,41 @@
         bottom: 200px;
     }
 
-/*     .experienceContainer .education .imageContainer {
-        position: relative;
-        width: 360px;
-        height: 640px;
-        margin-top: 150px;
-        background: rgba(0, 0, 0, 0);
+
+
+
+
+    .experienceContainer .education .imageContainer {
         transform: rotate(-30deg) skew(25deg) scale(0.8);
         transition: 0.5s;
+        position: absolute;
+        top: 60%;
     }
 
     .experienceContainer .education .imageContainer img {
         position: absolute;
-        width: 100%;
+        width: 210px;
         transition: 0.5s;
-    } */
+        margin: 0;
+        top: 50%;
+    }
+
+    .experienceContainer .education .imageContainer:hover img:nth-child(4) {
+        transform: translate(160px, -160px);
+        opacity: 1;
+      }
+      .experienceContainer .education .imageContainer:hover img:nth-child(3) {
+        transform: translate(120px, -120px);
+        opacity: 0.8;
+      }
+      .experienceContainer .education .imageContainer:hover img:nth-child(2) {
+        transform: translate(80px, -80px);
+        opacity: 0.6;
+      }
+      .experienceContainer .education .imageContainer:hover img:nth-child(1) {
+        transform: translate(40px, -40px);
+        opacity: 0.4;
+      }
 
 
 
