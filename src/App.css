@@ -272,11 +272,11 @@ h3 {
   margin-bottom: 60px;
 }
 
-.projectContainer .projectCard:first-child.show {
+.projectContainer .projectCard:nth-child(odd).show {
   animation: fadeInFromLeft 1.5s ease forwards;
 }
 
-.projectContainer .projectCard:last-child.show {
+.projectContainer .projectCard:nth-child(even).show {
   animation: fadeInFromRight 1.5s ease forwards;
 }
 

@@ -108,9 +108,12 @@
         align-items: center;
     }
 
-    .projectSection .projectCard:last-child {
+    .projectSection .projectCard:not(:first-child) {
+        margin-top: 80px;
+    }
+
+    .projectSection .projectCard:nth-child(even) {
         flex-direction: row-reverse;
-        margin-top: 104px;
     }
 
     .projectSection .projectCard .imageContainer {
