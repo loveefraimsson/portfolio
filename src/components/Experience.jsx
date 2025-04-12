@@ -35,7 +35,7 @@ function Experience() {
                             <li >
                                 <span className="title">Swedish Match | Maskinoperatör</span> <br />
                                 <span className="time">November 2024 – Pågående</span> <br />
-                                <p className="marginWorkDescription">Arbetade som montör på bandet på Volvo</p>
+                                <p className="marginWorkDescription">Arbetar för närvarande som maskinoperatör på Swedish Match. Ansvarar för produktion och slutflödet av snustillverkning.</p>
                             </li>
                         </ul>
                     </section>
