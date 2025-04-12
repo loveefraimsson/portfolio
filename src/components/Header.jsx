@@ -10,20 +10,20 @@ function Header() {
     const [showMenu, setShowMenu] = useState(false);
     const [opacityHeader, setOpacityHeader] = useState({
         opacity: '0.7',
-        border: 'none'
+        borderBottom: 'none'
     });
 
     const listenScrollEvent = (event) => {
         if (window.scrollY > 200) {
             return setOpacityHeader({
                 opacity: '0.9',
-                border: '2px solid var(--darkgreen)'
+                borderBottom: '2px solid var(--darkgreen)'
             })
             
         } else if (window.scrollY < 200) {
             return setOpacityHeader({
                 opacity: '0.7',
-                border: 'none'
+                borderBottom: 'none'
             })
         } 
     }
@@ -43,7 +43,7 @@ function Header() {
 
     let styleHeader = {
         opacity: opacityHeader.opacity,
-        border: opacityHeader.border
+        borderBottom: opacityHeader.borderBottom
     }
 
 
