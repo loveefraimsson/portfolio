@@ -24,8 +24,8 @@ function Project() {
                                 </div>
                                 <p className="description">{project.description}</p>
                                 <div className="buttonContainer">
-                                    <a href={project.linkWebsite} className="button">Till hemsidan</a>
-                                    <a href={project.linkGithub} className="button">Till Github</a>
+                                    <a href={project.linkWebsite} className="button" target='_blank'>Till hemsidan</a>
+                                    <a href={project.linkGithub} className="button" target='_blank'>Till Github</a>
                                 </div>
                                 
                             </div>
