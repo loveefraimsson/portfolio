@@ -33,6 +33,16 @@ function Experience() {
                     <section className="workExperience">
                         <ul>
                             <li >
+                                <span className="title">Swedish Match | Maskinoperatör</span> <br />
+                                <span className="time">November 2024 – Pågående</span> <br />
+                                <p className="marginWorkDescription">Arbetade som montör på bandet på Volvo</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section className="workExperience">
+                        <ul>
+                            <li >
                                 <span className="title">HAJ Agency | Webbutvecklare</span> <br />
                                 <span className="time">September 2022 - Maj 2023</span> <br />
                                 <span className="titleResponsibility">Huvudansvar:</span>
@@ -51,7 +61,7 @@ function Experience() {
                     <section className="workExperience">
                         <ul>
                             <li >
-                                <span className="title">HAJ Agency | PraktikWebbutvecklare</span> <br />
+                                <span className="title">HAJ Agency | Praktik Webbutvecklare</span> <br />
                                 <span className="time">Januari 2022 - september 2022</span> <br />
                                 <span className="titleResponsibility">Huvudansvar:</span>
                                 <ul className="responsibilityList">
@@ -69,16 +79,6 @@ function Experience() {
                                 <span className="title">Tetiko | Arbetsträning</span> <br />
                                 <span className="time">April 2019 – december 2020</span> <br />
                                 <p className="marginWorkDescription">Utbildade mig inom grundläggande HTML och CSS </p>
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section className="workExperience">
-                        <ul>
-                            <li >
-                                <span className="title">Volvo | Montör</span> <br />
-                                <span className="time">April 2015 – juni 2015</span> <br />
-                                <p className="marginWorkDescription">Arbetade som montör på bandet på Volvo</p>
                             </li>
                         </ul>
                     </section>
