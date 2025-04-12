@@ -39,12 +39,12 @@ function Footer() {
                 <section className="contactSection">
                     <div className="contactItem">
                         <img src={linkedin} alt="LinkedIn-ikon" />
-                        <a href="https://www.linkedin.com/in/love-efraimsson/">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/love-efraimsson/" target='_blank'>LinkedIn</a>
                     </div>
 
                     <div className="contactItem">
                         <img src={github} alt="Github-ikon" />
-                        <a href="https://github.com/loveefraimsson/">Github</a>
+                        <a href="https://github.com/loveefraimsson/" target='_blank'>Github</a>
                     </div>
                 </section>
 
