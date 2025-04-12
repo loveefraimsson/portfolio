@@ -1,4 +1,5 @@
 import React from "react";
+
 import CVPDF from '../Love_Efraimsson_CV.pdf'
 
 function CV() {
