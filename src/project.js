@@ -17,7 +17,7 @@ const projects = [
         linkWebsite: 'https://quiztime-eight.vercel.app/',
         linkGithub: 'https://github.com/loveefraimsson/tenzies_frontend'
     },
-    {
+    /* {
         title: 'WorkoutBase',
         description: 'Workoutbase är ett projekt som jag gjorde som examensarbete på min utbildning. Man kan logga in och söka bland olika träningsövningar, göra sina egna träningsprogram och favoritmarkera övningar som man vill kolla tillbaka på vid ett senare tillfälle. Det finns även en webshop där man kan lägga sina valda varor i kundkorgen. Inloggning till projektet finns på Github.',
         imageURL: new URL('assets/workoutbase.png', import.meta.url).href,
@@ -25,7 +25,7 @@ const projects = [
         tags: ['React', 'Sass', 'MongoDB', 'Express.js', 'Node'],
         linkWebsite: 'https://workoutbase-frontend.vercel.app/',
         linkGithub: 'https://github.com/loveefraimsson/quiz/'
-    }
+    } */
 ]
 
 export default projects;

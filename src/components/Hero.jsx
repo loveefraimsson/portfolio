@@ -10,7 +10,7 @@ function Hero() {
                 <div className="heroContent">
                     <img src={profileImg} alt="Love Efraimsson" className="hidden" />
                     <h1 className="hidden">Love Efraimsson</h1>
-                    <p className="subtitle hidden">- Frontend Developer</p>
+                    <p className="subtitle hidden">- Web Developer</p>
                 </div>
                 
             </section>

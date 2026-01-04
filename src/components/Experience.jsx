@@ -102,12 +102,12 @@ function Experience() {
                         <h3>Utbildning</h3>
                         <ul>
                             <li>
-                                <span className="time">Dec 2020 – september 2022</span> <br />
-                                <span><b>FrontEnd Developer</b>, Medieinstitutet</span>
+                                <span className="time">September 2025 – November 2025</span> <br />
+                                <span><b>C# Grundkurs</b>, Distansakademin</span>
                             </li>
                             <li>
-                                <span className="time">September 2017 – oktober 2017</span> <br />
-                                <span><b>Grundkurs Java, IT-högskolan</b></span>
+                                <span className="time">Dec 2020 – september 2022</span> <br />
+                                <span><b>FrontEnd Developer</b>, Medieinstitutet</span>
                             </li>
                             <li>
                                 <span className="time">Augusti 2007 – juni 2010</span> <br />
